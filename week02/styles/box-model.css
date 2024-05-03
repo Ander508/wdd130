@@ -4,10 +4,10 @@
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 15px;
 	background-color: #247;
-	color: #fff
+	color: #fff;
 }	
 
-.callout img {
+ .callout img {
 	float: right;
 	margin: 0, 0, 10px, 15px;
 	border: 1px solid #000;
