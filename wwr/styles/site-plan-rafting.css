@@ -8,7 +8,7 @@
 
     --heading-font: 'Rock Salt', serif;
     --paragraph-font: 'Briem Hand', serif;
-    --divider-font: Roboto, serif;
+    /* --divider-font: Roboto, serif; */
     
     --nav-background-color: #D6FFF6;
     --nav-link-color: #231651;
@@ -17,7 +17,7 @@
 
 }
 body{
-    font-family: var(--divider-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
