@@ -13,7 +13,7 @@
     --nav-background-color: #D6FFF6;
     --nav-link-color: #231651;
     --nav-hover-link-color: #4DCCBD;
-    --nav-hover-backround-color: #256EFF;
+    --nav-hover-background-color: #256EFF;
 
 }
 body{
@@ -39,7 +39,7 @@ header{
 }
 
 nav{
-    background-color: var(--nav-backround-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
@@ -55,6 +55,6 @@ nav a:link, nav a:visited{
 }
 nav a:hover{
     color: white;
-    background-color: var(--nav-hover-backround-color);
+    background-color: var(--nav-hover-background-color);
 
 }
