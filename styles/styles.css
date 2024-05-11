@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rock+Salt&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 nav{
     background-color: rgb(70, 130, 180);
     padding: 10px;
@@ -25,11 +24,13 @@ main img{
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 1rem;
    
 }
 
 p{
     padding: 0;
+    font-family: "Briem Hand", Arial, sans-serif ;
     
 }
 
@@ -50,8 +51,7 @@ aside h2{
     position: absolute;
     top: 47px;
     left: 120px;
-    z-index: 1;
-    color: whitesmoke;
+    color: blue;
 }
 
 footer{
@@ -67,10 +67,10 @@ h6{
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    background-color: rgba(70, 130, 180, 0.9);
-    color: white;
+    background-color: #eee;
+    color: #000;
 }
 .daughters{
     background-color: purple;
