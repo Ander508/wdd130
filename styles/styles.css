@@ -71,5 +71,14 @@ h6{
     padding: 1rem;
     background-color: rgba(70, 130, 180, 0.9);
     color: white;
-
+}
+span.daughters{
+    background-color: purple;
+    color: white;
+}
+span.son{
+    background-color: skyblue;
+}
+span.wife{
+    background-color: pink;
 }
