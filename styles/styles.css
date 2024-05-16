@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 nav{
-    background-color: rgb(70, 130, 180);
+    background-color:#256EFF;
     padding: 10px;
 }
 nav a{
@@ -14,7 +14,7 @@ nav a{
     padding: 20px;
 }
 h1{
-    color: steelblue;
+    color: #256EFF;
     font-family: 'Briem Hand';
 }
 main img{
