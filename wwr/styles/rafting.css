@@ -135,6 +135,7 @@ header img{
     box-shadow: 0 0 40px skyblue;
     width: 96%;
     margin: 2%;
+    gap: 50px;
 }
 
 .history h2 {
@@ -147,6 +148,7 @@ header img{
 
 .history .history-para-1 {
     grid-area: 2/1/3/3;
+    margin-left: 25px;
 }
 .history img {
     grid-area: 2/3/3/5;
@@ -154,6 +156,7 @@ header img{
 }
 .history .history-para-2 {
     grid-area: 2/5/3/7;
+    margin-right: 25px;
 } 
 
 .adventure {
