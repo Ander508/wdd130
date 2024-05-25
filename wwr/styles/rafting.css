@@ -49,8 +49,8 @@ p {
 
 article {
     background-color: rgba(0, 0, 0, 0.17);
-    width: 80%;
-    margin-left: 10%;
+    width: 96%;
+    margin: 2%;
 }
 article p{
  color: #ffffff;
@@ -133,7 +133,8 @@ header img{
     grid-template-columns: repeat(6, 1fr);
     /* border: 1px solid rgba(0, 0, 0,  0.5); */
     box-shadow: 0 0 40px skyblue;
-    margin-top: 20px;
+    width: 96%;
+    margin: 2%;
 }
 
 .history h2 {
@@ -158,10 +159,12 @@ header img{
 .adventure {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
-    grid-gap: 70px; /* Adjust gap between images as needed */
+    grid-gap: 50px; /* Adjust gap between images as needed */
     /* border: 1px solid rgba(0, 0, 0,  0.5); */
     box-shadow: 0 0 40px skyblue;
-    margin: 20px 0;
+    width: 96%;
+    margin: 2%;
+    justify-content: space-around;
 }
 
 .adventure h2 {
@@ -195,6 +198,8 @@ footer {
    padding: 20px 0;
    box-sizing: border-box;
    box-shadow: 0 0 30px skyblue;
+   background-color: var(--accent2-color);
+
   
    
 
@@ -213,4 +218,6 @@ footer nav {
     grid-area: 1/5/1/7;
     justify-self: right;
     align-self: center;
+    background-color: rgba(255,255,255, 0.01);
+    
 }
