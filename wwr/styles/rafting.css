@@ -62,13 +62,13 @@ header {
     align-items: center;
     border: 1px solid #ccc;
     margin: 1rem auto;
-    /* background-color: var(--primary-color); */
     background-color: var(--accent2-color);
     height: 120px;
     border-radius: 10px;
     width: 100%;
-    justify-items: space-between;
+    justify-content: space-evenly;
     box-sizing: border-box;
+  
 
 }
 
