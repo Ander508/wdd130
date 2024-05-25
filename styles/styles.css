@@ -40,14 +40,14 @@ main img{
    
 }
 
-p{
+p {
     padding: 0;
     font-family: "Briem Hand", Arial, sans-serif ;
     
 }
 
 
-aside{
+aside {
     width: 20em;
     text-align: center;
     position: relative;
@@ -55,7 +55,7 @@ aside{
     grid-row: 1/2;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
