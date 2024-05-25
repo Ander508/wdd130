@@ -161,7 +161,7 @@ header img{
     grid-gap: 70px; /* Adjust gap between images as needed */
     /* border: 1px solid rgba(0, 0, 0,  0.5); */
     box-shadow: 0 0 40px skyblue;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .adventure h2 {
@@ -191,10 +191,10 @@ header img{
 footer {
    display: grid;
    grid-template-columns: repeat(6, 1fr);
-   border: 1px solid rgb(0, 0, 0, 0.7);
+   /* border: 1px solid rgb(0, 0, 0, 0.7); */
    padding: 20px 0;
    box-sizing: border-box;
-   box-shadow: 0 0 30px gray;
+   box-shadow: 0 0 30px skyblue;
   
    
 
