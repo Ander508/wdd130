@@ -131,7 +131,7 @@ header img{
 .history {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    border: 1px solid rgba(0, 0, 0,  0.5);
+    /* border: 1px solid rgba(0, 0, 0,  0.5); */
     box-shadow: 0 0 40px skyblue;
     margin-top: 20px;
 }
@@ -159,7 +159,7 @@ header img{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width as needed */
     grid-gap: 70px; /* Adjust gap between images as needed */
-    border: 1px solid rgba(0, 0, 0,  0.5);
+    /* border: 1px solid rgba(0, 0, 0,  0.5); */
     box-shadow: 0 0 40px skyblue;
     margin-top: 20px;
 }
