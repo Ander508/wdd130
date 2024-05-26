@@ -51,6 +51,7 @@ article {
     background-color: rgba(214, 255, 246, 0.1);
     width: 96%;
     margin: 2%;
+    height: auto;
 }
 article p{
     color: black;
