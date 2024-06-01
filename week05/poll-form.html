@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     <header>
@@ -14,17 +15,19 @@
             <fieldset>
                 <legend>Contact Information</legend>
                 <!-- Here for form elements -->
-                <label for="fullname">Full Name</label><br>
-                <input type="text" id="fullname" name="fullname"><br><br>
-
-                <label for="useremail">Email</label><br>
-                <input type="email" id="useremail" name="useremail"><br><br>
-
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label><br>
+                    <input type="text" id="fullname" name="fullname"><br><br>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email</label><br>
+                    <input type="email" id="useremail" name="useremail"><br><br>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
                 <!-- Here for form elements -->
-                <div class="select">
+                <div class="form-item column1">
                     <label for="browser">What is your favorite browser?</label>
                     <select name="browser" id="browser">
                         <option value="chrome" selected>Chrome</option>
@@ -33,7 +36,7 @@
                         <option value="brave">Brave Browser</option>
                     </select>
                 </div>
-                <div class="checkbox">
+                <div class="form-item column1">
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet">
                 </div>
