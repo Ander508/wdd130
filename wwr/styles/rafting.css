@@ -360,7 +360,7 @@ section {
 
 }
 
-form input[type="Submit"] {
+button {
     width: 40%;
     background-color: #4DCCBD;
     margin-left: 30%;
