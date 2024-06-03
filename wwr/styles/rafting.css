@@ -378,6 +378,9 @@ legend{
 }
 
 
+
+/* Here start css for Trip Page */
+
 .contact-us {
     text-decoration: none;
     display: inline-block;
@@ -417,7 +420,8 @@ legend{
     border-radius: 5px;
 }
 
-.trips-pics figure figcaption {
+.trips-pics figure  a{
+    display: block;
     text-align: center;
     font-size:22px;
     height: 40px;
@@ -429,11 +433,10 @@ legend{
     padding-top: 9px;
     border-radius: 5px;
     color: black;
+    text-decoration: none;
+
 }
 
-.trips-pics figure a {
-    text-decoration: none;
-}
 .trip-description {
     grid-area: 1/8/1/10;
     width: 100%;
@@ -497,125 +500,4 @@ caption {
 
 
 
-/* 
-.table-layout, .img-layout {
-    display: grid;
-    grid-template-columns: 8fr 1fr;
-    width: 80%;
-    grid-template-rows: auto;
-    margin-left: 10%;
-
-}
-
-.trips-pics {
-    grid-area: 1/1/1/9;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 95%;
-   
-}
-table {
-    grid-area: 1/1/1/9;
-    width: 95%;
-    margin-left: 0%;
-    border-collapse: collapse;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-top: 1px solid #ddd;
-
-
-}
-
-.trip-description{
-    margin-top: 0;
-    grid-area: 1/9/1/10;
-}
-
-.trips-pics figure, .trip-description {
-    padding: 20px;
-    background-color:#f9f9f9;
-    box-sizing: border-box;
-    margin-bottom: 30px;
-    border: 1px solid #ddd;
-
-}
-
-.trips-pics figure img {
-    width: 208px;
-}
-figure a{
-    text-decoration: none;
-}
-
-.trips-pics figure figcaption {
-    text-align: center;
-    margin-top: 20px;
-    height: 40px;
-    width: 50%;
-    margin-left: 25%;
-    font-size: 25px;
-    line-height: 25px;
-    padding-top: 7.5px;
-    background-color: rgb(183, 187, 183);
-    border-radius: 20px;
-}
-
-
-
-
-
-thead tr th, tbody tr td,  tbody tr th {
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-}
-thead tr {
-    height: 40px;
-}
-
-tbody tr:nth-of-type(even) {
-    background-color: rgb(183, 187, 183);
-}
-thead tr:nth-of-type(1) {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-caption{
-    font-size: 40px;
-    border-bottom: 5px solid black#dfa;
-    margin-bottom: 20px;
-    color: rgb(8, 49, 8);
-
-}
-
-.table-layout table{
-    grid-area: 1/1/1/9;
-
-}
-
-.table-layout .special-trip, .trip-description {
-    grid-area: 1/9/1/10;
-    background-color: #ddd;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-top: 95px;
-    margin-bottom: 30px;
-
-}
-
-.special-trip-class{
-    width: 200px;
-    text-align: left;
-
-}
-.special-trip-class img{
-    width: 100px;
-}
-.special-trip h2{
-     text-align: center;
-}
-
-
-.trip-description h4, .trip-description p{
-    width: 250px;
-} */
+   /*Here starts CSS of Home Page  */
