@@ -342,21 +342,6 @@ input[type="text"], input[type="email"] {
     text-align: center;
     margin-top: 10px;
 }
-/* h4{
-    margin-bottom: 10px;
-    width: 60%;
-    margin-left: 30%;
-}
-section {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    width: 60%;
-    margin-left: 30%;
-    justify-content: space-between;
-
-    
-} */
 
 .msg{
     display: grid;
@@ -391,3 +376,246 @@ legend{
     font-family: "Briem Hand", Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
+
+
+.contact-us {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 10%;
+    background-color: #4DCCBD;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 25px;
+    padding: 12.5px;
+    border-radius: 10px;
+}
+
+
+.img-layout {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    /* grid-template-rows: auto; */
+    width: 90%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+}
+
+.trips-pics {
+    grid-area: 1/1/1/8;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trips-pics figure {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.trips-pics figure figcaption {
+    text-align: center;
+    font-size:22px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #4DCCBD;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 22px;
+    padding-top: 9px;
+    border-radius: 5px;
+    color: black;
+}
+
+.trips-pics figure a {
+    text-decoration: none;
+}
+.trip-description {
+    grid-area: 1/8/1/10;
+    width: 100%;
+    padding: 5px;
+    background-color: #ddd;
+
+    /* border: 1px solid black; */
+
+}
+
+.table-layout{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    width: 90%;
+    margin-left: 10%;
+}
+
+table {
+    grid-area: 1/1/1/8;
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.special-trip {
+    grid-area: 1/8/1/10;
+    width: 100%;
+    padding: 5px;
+    background-color: #ddd;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+}
+
+
+
+tbody th, tbody td {
+    /* border-bottom: 1px solid black; */
+    height: 50px;
+    text-align: center;
+}
+tbody tr:nth-of-type(even){
+    background-color: #ddd;
+}
+thead tr{
+    background-color: #000;
+    color: white;
+}
+
+thead th{
+    border-bottom: 1px solid black;
+    height: 50px;
+    font: 30px;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 30px;
+}
+
+
+
+/* 
+.table-layout, .img-layout {
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    width: 80%;
+    grid-template-rows: auto;
+    margin-left: 10%;
+
+}
+
+.trips-pics {
+    grid-area: 1/1/1/9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+   
+}
+table {
+    grid-area: 1/1/1/9;
+    width: 95%;
+    margin-left: 0%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid #ddd;
+
+
+}
+
+.trip-description{
+    margin-top: 0;
+    grid-area: 1/9/1/10;
+}
+
+.trips-pics figure, .trip-description {
+    padding: 20px;
+    background-color:#f9f9f9;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+
+}
+
+.trips-pics figure img {
+    width: 208px;
+}
+figure a{
+    text-decoration: none;
+}
+
+.trips-pics figure figcaption {
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: 7.5px;
+    background-color: rgb(183, 187, 183);
+    border-radius: 20px;
+}
+
+
+
+
+
+thead tr th, tbody tr td,  tbody tr th {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+thead tr {
+    height: 40px;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: rgb(183, 187, 183);
+}
+thead tr:nth-of-type(1) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+caption{
+    font-size: 40px;
+    border-bottom: 5px solid black#dfa;
+    margin-bottom: 20px;
+    color: rgb(8, 49, 8);
+
+}
+
+.table-layout table{
+    grid-area: 1/1/1/9;
+
+}
+
+.table-layout .special-trip, .trip-description {
+    grid-area: 1/9/1/10;
+    background-color: #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 95px;
+    margin-bottom: 30px;
+
+}
+
+.special-trip-class{
+    width: 200px;
+    text-align: left;
+
+}
+.special-trip-class img{
+    width: 100px;
+}
+.special-trip h2{
+     text-align: center;
+}
+
+
+.trip-description h4, .trip-description p{
+    width: 250px;
+} */
