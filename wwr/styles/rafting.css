@@ -435,7 +435,8 @@ legend{
     grid-area: 1/1/1/8;
     width: 95%;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    gap: 15px;
     flex-wrap: wrap;
     
 }
