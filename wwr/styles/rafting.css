@@ -435,8 +435,9 @@ legend{
     grid-area: 1/1/1/8;
     width: 95%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .trips-pics figure {
@@ -447,7 +448,7 @@ legend{
 }
 
 .trips-pics figure img{
-    width: 100%;
+    width: 95%;
 }
 
 .trips-pics figure  a{
