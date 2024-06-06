@@ -408,17 +408,25 @@ legend{
 .contact-us a{
     display: block;
     text-decoration: none;
-    height: 50px;
+    height: 100px;
     /* background-color: #000; */
-    line-height: 30px;
+    line-height: 50px;
     font-size: 30px;
     padding-top: 10px;
     box-sizing: border-box;
+    margin-bottom: 50px;
 
 }
 
 .contact-us a:hover{
     background-color: #4DCCBD;
+    margin-bottom: 50px;
+    font-size: 20px;
+    height: 50px;
+    line-height: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+
 }
 
 
@@ -429,15 +437,16 @@ legend{
     width: 90%;
     margin-left: 10%;
     /* border: 1px solid black; */
+    margin-top: 100px;
 }
 
 .trips-pics {
     grid-area: 1/1/1/8;
     width: 95%;
     display: flex;
-    /* justify-content: space-evenly; */
-    gap: 15px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 5px;
     
 }
 
@@ -446,6 +455,7 @@ legend{
     padding: 30px;
     border-radius: 5px;
     box-sizing: border-box;
+    width: 300px;
 }
 
 .trips-pics figure img{
